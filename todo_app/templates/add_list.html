@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add List</title>
+</head>
+<body>
+
+<form method="POST" action="/add_list">
+    <input type="text" name="list_name" />
+    <input type="submit" value="Add List"/>
+</form>
+
+Delete list:
+<form method="POST" action="/delete_list">
+    <input type="text" name="list_id" />
+    <input type="submit" value="Submit"/>
+</form>
+
+Get list items
+<form method="GET" action="/list/">
+    <input type="text" name="list_id" />
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>
